@@ -8,7 +8,7 @@ All experiments were conducted with Python 3.10.16
 ## Dataset
 Our work does not directly use images as input. Instead, we crop the defect regions and use them for training and evaluation.
 The related dataset can be downloaded via the following link.
-[https://drive.google.com/drive/folders/1bfhsZqW4Ojjfk3dMwnZjhniuNhJ_A1Ng?usp=sharing]
+[https://cardd-ustc.github.io/]
 
 ## Code
 
