@@ -1,5 +1,5 @@
-# DCR-diffusion
-Official Repository for "**DreamBooth-Conditioned Refinement via Diffusion for Vehicle Dent Detection Enhancement**"
+# DAR-diffusion
+Official Repository for "**Diffusion-Based Domain-Anchored Refinement for Vehicle Dent Detection Enhancement**"
 This repository contains the data and code used for the experiments in our paper, which are based on the public dataset CarDD.
 
 Before running the code, please install the required packages listed in `requirements.txt`.
