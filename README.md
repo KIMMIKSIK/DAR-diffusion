@@ -79,7 +79,7 @@ Example usage:
 python overlay.py \
   --damage_images_dir path_to_background_images \
   --damage_labels_dir path_to_background_labels \
-  --damage_ref_folder path_to_refined_dent_images \
+  --damage_defect_folder path_to_refined_dent_images \
   --new_damage_img_dir path_to_output_images \
   --new_damage_label_dir path_to_output_labels \
   --visual_output_dir path_to_visualization_images
