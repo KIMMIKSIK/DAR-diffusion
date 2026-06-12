@@ -46,7 +46,7 @@ The DreamBooth training script is `train_dreambooth.py`.
 Example usage:
 
 ```bash
-python train_dreambooth.py
+python train_dreambooth.py --save_dir "path\to\save_model"
 ```
 
 Before running the script, users should update image_dir inside the file.
