@@ -28,7 +28,7 @@ Before running the script:
 ### 1st Generation
 the learned LoRA weights are used to generate diverse initial dent patches using a Stable Diffusion pipeline (runwayml/stable-diffusion-v1-4, v1-5).
 
-### Representative Sample Selection
+### 2nd Representative Sample Selection
 The representative-sample selection script is `5_coreset_selection.py`.
 
 Example usage:
@@ -40,7 +40,7 @@ python 5_coreset_selection.py \
   --output_dir path_to_output_dir
 ```
 
-### DreamBooth Training
+### 2nd DreamBooth Training
 The DreamBooth training script is `train_dreambooth.py`.
 
 Example usage:
