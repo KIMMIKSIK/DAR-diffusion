@@ -62,7 +62,7 @@ Example usage:
 
 ```bash
 python train_refinement.py \
-  --model_dir ./DreamBooth_Based_domain_anchore \
+  --model_dir ./dreambooth_5test \
   --input_dir path_to_input_images \
   --output_dir path_to_output_images \
   --reference_crop_dir path_to_reference_dent_crops
