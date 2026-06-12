@@ -25,22 +25,6 @@ Before running the script:
 - You must prepare your own **Hugging Face account and access token**
 - If logging is enabled, you must also provide your own **Weights & Biases (`wandb`) API key**
 
-Example usage:
-
-```bash
-python train_distribute.py \
-  --pretrained_model_name_or_path CompVis/stable-diffusion-v1-4 \
-  --dataset_name path_to_train_cropdata \
-  --caption_column text \
-  --resolution 512 \
-  --train_batch_size 1 \
-  --num_train_epochs 100 \
-  --learning_rate 1e-4 \
-  --output_dir aihub2500_sample_weight1 \
-  --validation_prompt "a real and deep dent with car surface" \
-  --report_to wandb
-```
-
 ### Generation
 the learned LoRA weights are used to generate diverse initial dent patches using a Stable Diffusion pipeline (runwayml/stable-diffusion-v1-4, v1-5).
 
