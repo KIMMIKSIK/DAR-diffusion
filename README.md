@@ -12,7 +12,7 @@ The related dataset can be downloaded via the following link.
 
 ## Code
 
-### Training
+### 1st Training
 
 For the initial dent-patch generation stage, we fine-tuned a text-to-image diffusion model with LoRA using cropped dent images.  
 The training script `train_distribute.py` was adapted from the Hugging Face `diffusers` text-to-image example code:
@@ -25,7 +25,7 @@ Before running the script:
 - You must prepare your own **Hugging Face account and access token**
 - If logging is enabled, you must also provide your own **Weights & Biases (`wandb`) API key**
 
-### Generation
+### 1st Generation
 the learned LoRA weights are used to generate diverse initial dent patches using a Stable Diffusion pipeline (runwayml/stable-diffusion-v1-4, v1-5).
 
 ### Representative Sample Selection
@@ -55,7 +55,7 @@ The image_dir should contain the five representative images selected by 5_corese
 These five images are used as the few-shot samples for DreamBooth training.
 
 
-### Refinement
+### 2nd Refinement
 The refinement script is `train_refinement.py`.
 
 Example usage:
@@ -69,7 +69,7 @@ python train_refinement.py \
 ```
 
 
-### Overlay
+### 3rd Overlay
 
 The `overlay.py` script composites the refined dent images onto clean vehicle background images and automatically generates YOLO-format labels.
 
